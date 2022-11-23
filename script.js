@@ -1,9 +1,17 @@
 
+function Header() {
+    return (
+        <header>
+            <nav>
+            <img src="React-icon.png" width="40px" />
+            </nav>
+        </header>
+    )
+}
 
-function TemporaryName() {
+function Page() {
     return (
         <div>
-            <img src="React-icon.png" width="40px" />
             <h1>My awesome page in React</h1>
             <h3>Reasons I love React</h3>
             <ol>
@@ -13,6 +21,24 @@ function TemporaryName() {
                 <li>It's actively maintained by skilled people</li>
             </ol>
         </div>
+    )
+}
+
+function Footer() {
+    return (
+        <footer>
+            <small>© 2022 Delic development. All rights reserved.</small>
+        </footer>
+    )
+}
+function TemporaryName() {
+    return (
+        <div>
+        <Header />,
+        <Page />,
+        <Footer />
+        </div>
+
     )
 }
 
