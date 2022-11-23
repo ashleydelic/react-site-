@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 4px 10px 0px;;
 }
 
 .nav-items {
