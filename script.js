@@ -2,9 +2,9 @@
 function Header() {
     return (
         <header>
-            <nav>
-            <img src="React-icon.png" width="40px" />
-            <ul>
+            <nav className="nav">
+            <img src="React-icon.png" />
+            <ul className="nav-items">
                 <li>Pricing</li>
                 <li>About</li>
                 <li>Contact</li>
