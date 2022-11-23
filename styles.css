@@ -1,23 +1,32 @@
-
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #21222A;
-    color: white
+    color: white;
 }
 
 .nav-items {
     list-style: none;
     display: flex;
-    
+
 }
 
-.nav-items > li {
+.nav-items>li {
     padding: 10px;
 }
 
-.nav > img {
+.nav>img {
     width: 50px;
     padding: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
 }
