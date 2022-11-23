@@ -39,8 +39,8 @@ function Footer() {
 function TemporaryName() {
     return (
         <div>
-        <Header />,
-        <Page />,
+        <Header />
+        <Page />
         <Footer />
         </div>
 
