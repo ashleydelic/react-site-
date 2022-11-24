@@ -2,14 +2,8 @@
 
 
 
-function Footer() {
-    return (
-        <footer>
-            <small>© 2022 Delic development. All rights reserved.</small>
-        </footer>
-    )
-}
-function TemporaryName() {
+
+function Content() {
     return (
         <div>
         <Header />
@@ -20,4 +14,4 @@ function TemporaryName() {
     )
 }
 
-ReactDOM.render(<TemporaryName />, document.getElementById("root"))
+ReactDOM.render(<Content />, document.getElementById("root"))
