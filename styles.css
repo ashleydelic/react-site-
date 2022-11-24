@@ -14,6 +14,11 @@ body {
     color: white;
 }
 
+.logo-text {
+    margin-right: 170px;
+    color: #61DAFB;
+}
+
 .nav-items {
     list-style: none;
     display: flex;
