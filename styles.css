@@ -44,4 +44,6 @@ footer {
 
 }
 
- 
+.main-facts > li {
+    line-height: 19px;
+}
