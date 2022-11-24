@@ -1,6 +1,7 @@
 body {
     background-image: url("react-background.jpeg");
     color: white;
+    font-family: 'Inter', sans-serif;
     background-repeat: no-repeat;
     background-size: 100rem;
     
@@ -21,6 +22,7 @@ body {
 
 .nav-items > li {
     padding: 10px;
+
 }
 
 .nav > img {
@@ -34,10 +36,12 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: black;
-    color: white;
     text-align: center;
 }
 
 .main-content {
     margin: 40px;
+
 }
+
+ 
