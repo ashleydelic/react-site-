@@ -3,7 +3,7 @@
 
 
 
-function Content() {
+function App() {
     return (
         <div>
         <Header />
@@ -14,4 +14,4 @@ function Content() {
     )
 }
 
-ReactDOM.render(<Content />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))

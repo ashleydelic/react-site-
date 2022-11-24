@@ -1,3 +1,10 @@
+body {
+    background-image: url("react-background.jpeg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100em;
+    
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -29,4 +36,8 @@ footer {
     background-color: gray;
     color: white;
     text-align: center;
+}
+
+.main-content {
+    margin: 40px;
 }
