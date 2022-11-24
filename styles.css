@@ -19,11 +19,11 @@ body {
 
 }
 
-.nav-items>li {
+.nav-items > li {
     padding: 10px;
 }
 
-.nav>img {
+.nav > img {
     width: 50px;
     padding: 10px;
 }
